@@ -9,10 +9,10 @@ int SumNumbers(int num)
 {
     int sum = 0;
     int i = num;
-    while(num > 0)
+    while(i > 0)
     {
-        sum = num % 10 + sum;
-        num = num / 10;
+        sum = i % 10 + sum;
+        i = i / 10;
     }
     return(sum);
 } 
